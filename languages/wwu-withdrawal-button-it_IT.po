@@ -1632,18 +1632,21 @@ msgstr "→ Vai al gruppo corrispondente qui sotto"
 #: src/Core/Install.php:336
 #: src/Frontend/FluentCartPortal.php:115
 #: src/Frontend/FluentCartPortal.php:142
-#: src/Frontend/WooMyAccount.php:93
 #: src/Mail/FluentCartWithdrawalTag.php:76
 msgid "Right of withdrawal"
-msgstr "Diritto di recesso"
+msgstr "Diritto di reso"
+
+#: src/Frontend/WooMyAccount.php:93
+msgid "Request a return"
+msgstr "Richiedi reso"
 
 #: src/Domain/ConsentText.php:59
 msgid "I request immediate access to this digital content and I acknowledge that, once the download or streaming has begun, I lose my right of withdrawal."
-msgstr "Richiedo l'accesso immediato a questo contenuto digitale e riconosco che, una volta avviato il download o la riproduzione in streaming, perdo il mio diritto di recesso."
+msgstr "Richiedo l'accesso immediato a questo contenuto digitale e riconosco che, una volta avviato il download o la riproduzione in streaming, perdo il mio diritto di reso."
 
 #: src/Domain/ConsentText.php:63
 msgid "I request that this service begins immediately and I acknowledge that, once it has been fully performed, I lose my right of withdrawal."
-msgstr "Richiedo che il servizio venga avviato immediatamente e riconosco che, una volta eseguito integralmente, perdo il mio diritto di recesso."
+msgstr "Richiedo che il servizio venga avviato immediatamente e riconosco che, una volta eseguito integralmente, perdo il mio diritto di reso."
 
 #: src/Domain/ExceptionTypes.php:129
 msgid "e.g. a product you have assessed individually → tag it here and the button is hidden for it."
@@ -1815,15 +1818,15 @@ msgstr "Contratti conclusi a un'asta pubblica."
 
 #: src/Domain/WithdrawalService.php:125
 msgid "No pending withdrawal to confirm. Please start again."
-msgstr "Nessun recesso in attesa da confermare. Inizia nuovamente."
+msgstr "Nessun reso in attesa da confermare. Inizia nuovamente."
 
 #: src/Domain/WithdrawalService.php:128
 msgid "This confirmation has expired. Please start the withdrawal again."
-msgstr "Questa conferma è scaduta. Avvia nuovamente la procedura di recesso."
+msgstr "Questa conferma è scaduta. Avvia nuovamente la procedura di reso."
 
 #: src/Domain/WithdrawalService.php:131
 msgid "Invalid confirmation. Please start the withdrawal again."
-msgstr "Conferma non valida. Avvia nuovamente la procedura di recesso."
+msgstr "Conferma non valida. Avvia nuovamente la procedura di reso."
 
 #: src/Domain/WithdrawalService.php:178
 msgid "Right of withdrawal exercised by the consumer (within the period)."
@@ -1843,11 +1846,11 @@ msgstr "Non è stato possibile completare l'annullamento automatico dell'abbonam
 
 #: src/DurableMedium/ConfirmationDispatcher.php:184
 msgid "New withdrawal request — order %s"
-msgstr "Nuova richiesta di recesso — ordine %s"
+msgstr "Nuova richiesta di reso — ordine %s"
 
 #: src/DurableMedium/ConfirmationDispatcher.php:98
 msgid "Acknowledgement of your withdrawal — order %s"
-msgstr "Conferma del tuo recesso — ordine %s"
+msgstr "Conferma del tuo reso — ordine %s"
 
 #: src/Frontend/Assets.php:112
 msgid "Submitting…"
@@ -1863,13 +1866,13 @@ msgstr "Si è verificato un errore. Riprova."
 
 #: src/Frontend/Assets.php:115
 msgid "Your withdrawal has been registered. We have emailed you a confirmation."
-msgstr "Il tuo recesso è stato registrato. Ti abbiamo inviato una conferma via e-mail."
+msgstr "Il tuo reso è stato registrato. Ti abbiamo inviato una conferma via e-mail."
 
 #: src/Frontend/Assets.php:116
 #: src/Frontend/NoScriptFlow.php:89
 #: templates/form/withdrawal-form.php:97
 msgid "Please confirm your withdrawal. This is the final step."
-msgstr "Conferma il tuo recesso. Questo è il passaggio finale."
+msgstr "Conferma il tuo reso. Questo è il passaggio finale."
 
 #: src/Frontend/Assets.php:117
 #: templates/myaccount/withdrawal-list.php:54
@@ -1888,35 +1891,35 @@ msgstr "Conferma il consenso richiesto per: %s"
 
 #: src/Frontend/EligibleOrders.php:60
 msgid "Withdrawal handled"
-msgstr "Recesso gestito"
+msgstr "Reso gestito"
 
 #: src/Frontend/EligibleOrders.php:64
 msgid "Withdrawal requested"
-msgstr "Recesso richiesto"
+msgstr "Reso richiesto"
 
 #: src/Frontend/ExemptionNoteRenderer.php:128
 msgid "The right of withdrawal does not apply to this order: every item falls under a statutory exception to the 14-day right (%1$s — %2$s), which you expressly agreed to at checkout."
-msgstr "Il diritto di recesso non si applica a questo ordine: ogni articolo rientra in un'eccezione di legge al diritto di 14 giorni (%1$s — %2$s), che hai accettato espressamente in fase d'ordine."
+msgstr "Il diritto di reso non si applica a questo ordine: ogni articolo rientra in un'eccezione di legge al diritto di 14 giorni (%1$s — %2$s), che hai accettato espressamente in fase d'ordine."
 
 #: src/Frontend/ExemptionNoteRenderer.php:139
 msgid "The right of withdrawal does not apply to this order: every item falls under a statutory exception to the 14-day right (%s), which you expressly agreed to at checkout."
-msgstr "Il diritto di recesso non si applica a questo ordine: ogni articolo rientra in un'eccezione di legge al diritto di 14 giorni (%s), che hai accettato espressamente in fase d'ordine."
+msgstr "Il diritto di reso non si applica a questo ordine: ogni articolo rientra in un'eccezione di legge al diritto di 14 giorni (%s), che hai accettato espressamente in fase d'ordine."
 
 #: src/Frontend/FluentCartPortal.php:168
 msgid "Changed your mind? You can exercise your right of withdrawal on eligible orders."
-msgstr "Hai cambiato idea? Puoi esercitare il tuo diritto di recesso sugli ordini idonei."
+msgstr "Hai cambiato idea? Puoi esercitare il tuo diritto di reso sugli ordini idonei."
 
 #: src/Frontend/FluentCartPortal.php:169
 msgid "Open the withdrawal page"
-msgstr "Apri la pagina di recesso"
+msgstr "Apri la pagina di reso"
 
 #: src/Frontend/NoScriptFlow.php:144
 msgid "Withdrawal registered"
-msgstr "Recesso registrato"
+msgstr "Reso registrato"
 
 #: src/Frontend/NoScriptFlow.php:145
 msgid "Your withdrawal has been registered. We have emailed you a confirmation on a durable medium."
-msgstr "Il tuo recesso è stato registrato. Ti abbiamo inviato una conferma su supporto durevole via e-mail."
+msgstr "Il tuo reso è stato registrato. Ti abbiamo inviato una conferma su supporto durevole via e-mail."
 
 #: src/Frontend/NoScriptFlow.php:159
 #: src/REST/Routes/WithdrawalRoute.php:139
@@ -1942,7 +1945,7 @@ msgstr "Torna al sito"
 #: src/Frontend/NoScriptFlow.php:139
 #: src/Frontend/NoScriptFlow.php:158
 msgid "Withdrawal"
-msgstr "Recesso"
+msgstr "Reso"
 
 #: src/Frontend/NoScriptFlow.php:76
 #: src/REST/Routes/WithdrawalRoute.php:192
@@ -1971,11 +1974,11 @@ msgstr "Questo messaggio conferma, su supporto durevole, la richiesta espressa e
 
 #: src/Mail/ExemptionConfirmation.php:156
 msgid "For the following item type(s) you asked to start immediately and confirmed that you understand you lose the right of withdrawal once that happens:"
-msgstr "Per il/i seguente/i tipo/i di articolo hai chiesto di iniziare immediatamente e hai confermato di comprendere che perdi il diritto di recesso non appena ciò accade:"
+msgstr "Per il/i seguente/i tipo/i di articolo hai chiesto di iniziare immediatamente e hai confermato di comprendere che perdi il diritto di reso non appena ciò accade:"
 
 #: src/Mail/ExemptionConfirmation.php:169
 msgid "Because you gave this prior express consent and acknowledgement, the right of withdrawal does not apply to the item type(s) above once performance has begun (Art. 59 Codice del Consumo / Art. 16 Directive 2011/83/EU). Your 14-day right of withdrawal for any other item in the order is unaffected."
-msgstr "Poiché hai prestato questo consenso espresso preventivo e la relativa dichiarazione, il diritto di recesso non si applica al/i tipo/i di articolo sopra indicati una volta iniziata l'esecuzione (Art. 59 Codice del Consumo / Art. 16 Directive 2011/83/EU). Il tuo diritto di recesso di 14 giorni per qualsiasi altro articolo dell'ordine non è pregiudicato."
+msgstr "Poiché hai prestato questo consenso espresso preventivo e la relativa dichiarazione, il diritto di reso non si applica al/i tipo/i di articolo sopra indicati una volta iniziata l'esecuzione (Art. 59 Codice del Consumo / Art. 16 Directive 2011/83/EU). Il tuo diritto di reso di 14 giorni per qualsiasi altro articolo dell'ordine non è pregiudicato."
 
 #: src/Mail/ExemptionConfirmation.php:171
 msgid "Keep this message as your record. It was sent automatically when you placed the order."
@@ -1983,15 +1986,15 @@ msgstr "Conserva questo messaggio come tua documentazione. È stato inviato auto
 
 #: src/Mail/ExemptionConfirmation.php:63
 msgid "Your order %s — confirmation of your right of withdrawal"
-msgstr "Il tuo ordine %s — conferma del tuo diritto di recesso"
+msgstr "Il tuo ordine %s — conferma del tuo diritto di reso"
 
 #: src/Mail/FluentCartWithdrawalTag.php:79
 msgid "Withdrawal link for this order"
-msgstr "Link di recesso per questo ordine"
+msgstr "Link di reso per questo ordine"
 
 #: src/Mail/WooAckEmail.php:65
 msgid "Withdrawal acknowledgement"
-msgstr "Conferma di recesso"
+msgstr "Conferma di reso"
 
 #: src/Mail/WooAckEmail.php:66
 msgid "Acknowledgement of receipt sent to the consumer when they withdraw from a contract. This email is legally required (Art. 11a / Art. 54-bis); disabling it here only reverts to a plain built-in template — the acknowledgement is still sent."
@@ -1999,12 +2002,12 @@ msgstr "Conferma di ricevimento inviata al consumatore quando esercita il recess
 
 #: src/Mail/WooAckEmail.php:86
 msgid "Acknowledgement of your withdrawal — order {order_number}"
-msgstr "Conferma del tuo recesso — ordine {order_number}"
+msgstr "Conferma del tuo reso — ordine {order_number}"
 
 #: src/Mail/WooAckEmail.php:95
 #: templates/emails/withdrawal-confirmation.php:30
 msgid "Acknowledgement of receipt of your withdrawal"
-msgstr "Attestazione di ricevimento del tuo recesso"
+msgstr "Attestazione di ricevimento del tuo reso"
 
 #: src/Platform/FluentCartAdapter.php:522
 msgid "Withdrawal evidence recorded"
@@ -2023,13 +2026,13 @@ msgstr "Contrassegnato come recesso richiesto (in blocco)."
 #: src/Platform/WooCommerce/OrderStatus.php:106
 msgctxt "Order status"
 msgid "Withdrawal requested"
-msgstr "Recesso richiesto"
+msgstr "Reso richiesto"
 
 #: src/Platform/WooCommerce/OrderStatus.php:82
 msgid "Withdrawal requested <span class=\"count\">(%s)</span>"
 msgid_plural "Withdrawal requested <span class=\"count\">(%s)</span>"
-msgstr[0] "Recesso richiesto <span class=\"count\">(%s)</span>"
-msgstr[1] "Recesso richiesto <span class=\"count\">(%s)</span>"
+msgstr[0] "Reso richiesto <span class=\"count\">(%s)</span>"
+msgstr[1] "Reso richiesto <span class=\"count\">(%s)</span>"
 
 #: src/Platform/WooCommerceAdapter.php:161
 msgid "Cancelled following the consumer right-of-withdrawal request."
@@ -2085,29 +2088,29 @@ msgstr "Ordine non trovato o accesso non verificabile."
 
 #: src/Shortcodes/Shortcodes.php:124
 msgid "The right of withdrawal is not available for this order."
-msgstr "Il diritto di recesso non è disponibile per questo ordine."
+msgstr "Il diritto di reso non è disponibile per questo ordine."
 
 #: src/Shortcodes/Shortcodes.php:160
 msgid "No withdrawal request for this order."
-msgstr "Nessuna richiesta di recesso per questo ordine."
+msgstr "Nessuna richiesta di reso per questo ordine."
 
 #: src/Shortcodes/Shortcodes.php:165
 msgid "Withdrawal request status: %s"
-msgstr "Stato della richiesta di recesso: %s"
+msgstr "Stato della richiesta di reso: %s"
 
 #: templates/button/withdrawal-button.php:35
 msgid "%d day left to withdraw"
 msgid_plural "%d days left to withdraw"
-msgstr[0] "%d giorno rimasto per recedere"
-msgstr[1] "%d giorni rimasti per recedere"
+msgstr[0] "%d giorno rimasto per il reso"
+msgstr[1] "%d giorni rimasti per il reso"
 
 #: templates/emails/admin-notification.php:23
 msgid "New withdrawal request"
-msgstr "Nuova richiesta di recesso"
+msgstr "Nuova richiesta di reso"
 
 #: templates/emails/admin-notification.php:26
 msgid "Flagged outside the computed withdrawal period"
-msgstr "Segnalata fuori dal periodo di recesso calcolato"
+msgstr "Segnalata fuori dal periodo di reso calcolato"
 
 #: templates/emails/admin-notification.php:26
 msgid "please verify whether the request is still valid."
@@ -2132,7 +2135,7 @@ msgstr "Inviato"
 
 #: templates/emails/admin-notification.php:38
 msgid "The order has been marked \"Withdrawal requested\". Remember the refund obligation (within 14 days). This request is recorded in the immutable log."
-msgstr "L'ordine è stato contrassegnato come \"Recesso richiesto\". Ricorda l'obbligo di rimborso (entro 14 giorni). Questa richiesta è registrata nel log immodificabile."
+msgstr "L'ordine è stato contrassegnato come \"Reso richiesto\". Ricorda l'obbligo di rimborso (entro 14 giorni). Questa richiesta è registrata nel log immodificabile."
 
 #: templates/emails/admin-notification.php:39
 msgid "View the evidence record"
@@ -2148,7 +2151,7 @@ msgstr "Gentile %s,"
 #: templates/emails/withdrawal-confirmation.php:33
 #: templates/emails/wwu-wb-withdrawal-ack.php:44
 msgid "We confirm that we have received your withdrawal from the following distance contract. This message is your acknowledgement of receipt on a durable medium."
-msgstr "Confermiamo di aver ricevuto il tuo recesso dal seguente contratto a distanza. Questo messaggio è la tua attestazione di ricevimento su supporto durevole."
+msgstr "Confermiamo di aver ricevuto il tuo reso dal seguente ordine a distanza. Questo messaggio è la tua attestazione di ricevimento su supporto durevole."
 
 #: templates/emails/plain/wwu-wb-withdrawal-ack.php:31
 #: templates/emails/withdrawal-confirmation.php:40
@@ -2183,7 +2186,7 @@ msgstr "Verifica questa ricevuta:"
 #: templates/emails/wwu-wb-withdrawal-ack.php:69
 #: templates/pdf/receipt-pdf.php:55
 msgid "Products withdrawn"
-msgstr "Prodotti oggetto di recesso"
+msgstr "Prodotti oggetto di reso"
 
 #: templates/emails/withdrawal-confirmation.php:54
 #: templates/emails/wwu-wb-withdrawal-ack.php:84
@@ -2202,11 +2205,11 @@ msgstr "Verifica questa ricevuta"
 
 #: templates/emails/wwu-wb-withdrawal-ack.php:46
 msgid "Withdrawal details"
-msgstr "Dettagli del recesso"
+msgstr "Dettagli del reso"
 
 #: templates/form/withdrawal-form.php:46
 msgid "JavaScript is required to use the withdrawal form. You may also use the model withdrawal form provided in our terms."
-msgstr "Per utilizzare il modulo di recesso è necessario JavaScript. Puoi anche utilizzare il modulo tipo di recesso fornito nelle nostre condizioni."
+msgstr "Per utilizzare il modulo di reso è necessario JavaScript. Puoi anche utilizzare il modulo tipo di reso fornito nelle nostre condizioni."
 
 #: templates/form/withdrawal-form.php:56
 msgid "Your name"
@@ -2222,11 +2225,11 @@ msgstr "Non sei obbligato a indicare un motivo."
 
 #: templates/form/withdrawal-form.php:74
 msgid "Withdrawing from only some products?"
-msgstr "Stai recedendo solo da alcuni prodotti?"
+msgstr "Stai rendendo solo alcuni prodotti?"
 
 #: templates/form/withdrawal-form.php:75
 msgid "Tick them — leave empty to withdraw from the whole order."
-msgstr "Spuntali — lascia vuoto per recedere dall'intero ordine."
+msgstr "Spuntali — lascia vuoto per rendere l'intero ordine."
 
 #: templates/form/withdrawal-form.php:92
 msgid "Continue"
@@ -2234,7 +2237,7 @@ msgstr "Continua"
 
 #: templates/myaccount/withdrawal-list.php:42
 msgid "Enter your order number and the email you used at checkout to start a withdrawal. You can also use the link in your order confirmation email, or log in to your account."
-msgstr "Inserisci il numero d'ordine e l'e-mail utilizzata al momento del checkout per avviare un recesso. Puoi anche utilizzare il link nell'e-mail di conferma dell'ordine, oppure accedere al tuo account."
+msgstr "Inserisci il numero d'ordine e l'e-mail utilizzata al momento del checkout per avviare un reso. Puoi anche utilizzare il link nell'e-mail di conferma dell'ordine, oppure accedere al tuo account."
 
 #: templates/myaccount/withdrawal-list.php:46
 msgid "Order number"
@@ -2246,7 +2249,7 @@ msgstr "E-mail utilizzata al checkout"
 
 #: templates/myaccount/withdrawal-list.php:61
 msgid "You have no orders that can be withdrawn right now. The button appears on eligible orders within the withdrawal period."
-msgstr "Non hai ordini da cui è possibile recedere al momento. Il pulsante compare sugli ordini idonei entro il periodo di recesso."
+msgstr "Non hai ordini che puoi rendere al momento. Il pulsante compare sugli ordini idonei entro il periodo di reso."
 
 #: templates/myaccount/withdrawal-list.php:63
 msgid "Go to my orders"
@@ -2254,7 +2257,7 @@ msgstr "Vai ai miei ordini"
 
 #: templates/myaccount/withdrawal-list.php:68
 msgid "Choose an order to withdraw from:"
-msgstr "Scegli un ordine da cui recedere:"
+msgstr "Scegli un ordine da rendere:"
 
 #: templates/myaccount/withdrawal-list.php:74
 msgid "Action"
@@ -2262,7 +2265,7 @@ msgstr "Azione"
 
 #: templates/partials/consumer-guidance.php:45
 msgid "You can withdraw from this contract within %d days, without giving any reason. It takes two short steps and we will email you a confirmation straight away."
-msgstr "Puoi recedere da questo contratto entro %d giorni, senza dover fornire alcun motivo. Bastano due brevi passaggi e ti invieremo subito una conferma via e-mail."
+msgstr "Puoi rendere questo ordine entro %d giorni, senza dover fornire alcun motivo. Bastano due brevi passaggi e ti invieremo subito una conferma via e-mail."
 
 #: templates/partials/consumer-guidance.php:54
 msgid "How it works & what happens next"
@@ -2270,7 +2273,7 @@ msgstr "Come funziona e cosa succede dopo"
 
 #: templates/partials/consumer-guidance.php:56
 msgid "You have %d days to withdraw — counted from when you (or someone you nominated) received the goods, or from the day the contract was concluded for a service."
-msgstr "Hai %d giorni per recedere — calcolati da quando tu (o una persona da te designata) hai ricevuto i beni, oppure dal giorno della conclusione del contratto per un servizio."
+msgstr "Hai %d giorni per il reso — calcolati da quando tu (o una persona da te designata) hai ricevuto i beni, oppure dal giorno della conclusione dell'ordine per un servizio."
 
 #: templates/partials/consumer-guidance.php:57
 msgid "You do not need to explain why. There are no hidden steps and no obligation to call us."
@@ -2286,11 +2289,11 @@ msgstr "Rimborsiamo tutti i pagamenti da te effettuati per l'ordine, incluse le 
 
 #: templates/partials/consumer-guidance.php:60
 msgid "If your order is physical goods, please send them back within 14 days of telling us. We may wait until we receive them (or your proof of return) before refunding; return shipping may be at your expense unless we stated otherwise."
-msgstr "Se il tuo ordine riguarda beni fisici, rispediscili entro 14 giorni dalla comunicazione del recesso. Potremmo attendere la ricezione dei beni (o la tua prova di spedizione) prima di effettuare il rimborso; le spese di restituzione potrebbero essere a tuo carico, salvo diversa indicazione da parte nostra."
+msgstr "Se il tuo ordine riguarda beni fisici, rispediscili entro 14 giorni dalla comunicazione del reso. Potremmo attendere la ricezione dei beni (o la tua prova di spedizione) prima di effettuare il rimborso; le spese di restituzione potrebbero essere a tuo carico, salvo diversa indicazione da parte nostra."
 
 #: templates/partials/consumer-guidance.php:61
 msgid "Some items cannot be withdrawn by law (for example, sealed items unsealed after delivery, event tickets for a specific date, or digital content you agreed to start immediately). If that applies, we will let you know."
-msgstr "Alcuni articoli non possono essere oggetto di recesso per legge (ad esempio, beni sigillati aperti dopo la consegna, biglietti per eventi in una data specifica o contenuti digitali di cui hai accettato l'avvio immediato). Se applicabile, te lo comunicheremo."
+msgstr "Alcuni articoli non possono essere oggetto di reso per legge (ad esempio, beni sigillati aperti dopo la consegna, biglietti per eventi in una data specifica o contenuti digitali di cui hai accettato l'avvio immediato). Se applicabile, te lo comunicheremo."
 
 #: templates/partials/consumer-guidance.php:63
 msgid "If anything is unclear, contact us before confirming — we are happy to help."
@@ -2298,7 +2301,7 @@ msgstr "Se qualcosa non è chiaro, contattaci prima di confermare — siamo a tu
 
 #: templates/pdf/receipt-pdf.php:44
 msgid "Acknowledgement of receipt of withdrawal"
-msgstr "Attestazione di ricevimento del recesso"
+msgstr "Attestazione di ricevimento del reso"
 
 #: templates/pdf/receipt-pdf.php:45
 msgid "durable medium (Art. 11a Dir. 2011/83/EU)"
@@ -2314,7 +2317,7 @@ msgstr "Dichiarazione"
 
 #: templates/pdf/receipt-pdf.php:63
 msgid "I, %1$s, hereby give notice that I withdraw from my contract of sale of the following goods/services: %2$s."
-msgstr "Io sottoscritto/a %1$s, con la presente comunico il mio recesso dal contratto di vendita relativo ai seguenti beni/servizi: %2$s."
+msgstr "Io sottoscritto/a %1$s, con la presente comunico il mio reso dell'ordine di vendita relativo ai seguenti beni/servizi: %2$s."
 
 #: templates/pdf/receipt-pdf.php:67
 msgid "Tamper-evidence reference (SHA-256 of the immutable-log record):"
@@ -2331,7 +2334,7 @@ msgstr "Verifica:"
 #: templates/public/verify-receipt.php:38
 #: templates/public/verify-receipt.php:62
 msgid "Withdrawal receipt verification"
-msgstr "Verifica della ricevuta di recesso"
+msgstr "Verifica della ricevuta di reso"
 
 #: templates/public/verify-receipt.php:56
 msgid "Verified — record intact"
@@ -2355,11 +2358,11 @@ msgstr "Hash della prova"
 
 #: templates/public/verify-receipt.php:83
 msgid "This page confirms that the withdrawal record exists and matches its tamper-evident entry in the immutable log. The evidence hash above is the fingerprint of that entry."
-msgstr "Questa pagina conferma che il record di recesso esiste e corrisponde alla sua voce antimanomissione nel log immodificabile. L'hash della prova riportato sopra è l'impronta digitale di tale voce."
+msgstr "Questa pagina conferma che il record di reso esiste e corrisponde alla sua voce antimanomissione nel log immodificabile. L'hash della prova riportato sopra è l'impronta digitale di tale voce."
 
 #: templates/public/verify-receipt.php:84
 msgid "The withdrawal record could not be matched against the immutable log. Please contact the trader."
-msgstr "Impossibile abbinare il record di recesso al log immodificabile. Contatta il professionista."
+msgstr "Impossibile abbinare il record di reso al log immodificabile. Contatta il professionista."
 
 #: templates/public/verify-receipt.php:87
 msgid "Checked on %s."

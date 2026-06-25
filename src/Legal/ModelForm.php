@@ -30,10 +30,10 @@ final class ModelForm {
 	 */
 	private const FORM = array(
 		'it' => array(
-			'title'   => 'Modulo di recesso tipo',
-			'note'    => '(compilare e restituire il presente modulo solo se si desidera recedere dal contratto)',
+			'title'   => 'Modulo di reso tipo',
+			'note'    => '(compilare e restituire il presente modulo solo se si desidera rendere l\'ordine)',
 			'to'      => 'Destinatario [il professionista inserisce qui il proprio nome, indirizzo geografico e, se disponibile, indirizzo di posta elettronica]:',
-			'body'    => 'Con la presente io/noi (*) notifichiamo il recesso dal mio/nostro (*) contratto di vendita dei seguenti beni/servizi (*):',
+			'body'    => 'Con la presente io/noi (*) notifichiamo il reso del mio/nostro (*) ordine di vendita dei seguenti beni/servizi (*):',
 			'ordered' => 'Ordinato il (*)/ricevuto il (*):',
 			'name'    => 'Nome del/dei consumatore(i):',
 			'address' => 'Indirizzo del/dei consumatore(i):',

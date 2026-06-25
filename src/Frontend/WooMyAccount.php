@@ -90,7 +90,7 @@ final class WooMyAccount {
 		if ( null !== $logout ) {
 			unset( $items['customer-logout'] );
 		}
-		$items[ $this->endpoint ] = __( 'Right of withdrawal', 'wwu-withdrawal-button' );
+		$items[ $this->endpoint ] = __( 'Request a return', 'wwu-withdrawal-button' );
 		if ( null !== $logout ) {
 			$items['customer-logout'] = $logout;
 		}

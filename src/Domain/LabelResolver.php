@@ -36,7 +36,7 @@ final class LabelResolver {
 	 * @var array<string,array{0:string,1:string,2:string}>
 	 */
 	private const STATUTORY = array(
-		'it' => array( 'recedere dal contratto qui', 'conferma recesso', 'Art. 54-bis Cod. Consumo' ),
+		'it' => array( 'richiedi il reso qui', 'conferma reso', 'Art. 54-bis Cod. Consumo' ),
 		'en' => array( 'withdraw from contract here', 'confirm withdrawal', 'Dir. 2011/83 Art. 11a' ),
 		'de' => array( 'Vertrag widerrufen', 'Widerruf bestätigen', '§356a BGB' ),
 		'fr' => array( 'renoncer au contrat ici', 'confirmer la rétractation', 'Art. D.221-5 Code conso' ),
